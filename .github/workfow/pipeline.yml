@@ -1,0 +1,14 @@
+yaml
+jobs:
+  build:
+    runs-on: ubuntu-latest
+steps:
+   - name: Build step
+     run: echo "Building..."
+
+
+greet:
+  runs-on: ubuntu-latest
+steps:
+  -name: Greet step
+   run: echo "Hello"
